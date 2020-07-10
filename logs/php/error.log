@@ -1,0 +1,121 @@
+[16-Jun-2020 00:57:29 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/index.php on line 8
+[16-Jun-2020 01:22:23 UTC] PHP Warning:  Use of undefined constant the_title - assumed 'the_title' (this will throw an Error in a future version of PHP) in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/index.php on line 5
+[16-Jun-2020 01:22:23 UTC] PHP Stack trace:
+[16-Jun-2020 01:22:23 UTC] PHP   1. {main}() /Users/jessjmyer/Local Sites/fictional-university/app/public/index.php:0
+[16-Jun-2020 01:22:23 UTC] PHP   2. require() /Users/jessjmyer/Local Sites/fictional-university/app/public/index.php:17
+[16-Jun-2020 01:22:23 UTC] PHP   3. require_once() /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[16-Jun-2020 01:22:23 UTC] PHP   4. include() /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[16-Jun-2020 01:22:23 UTC] PHP Warning:  Use of undefined constant the_title - assumed 'the_title' (this will throw an Error in a future version of PHP) in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/index.php on line 5
+[16-Jun-2020 01:22:23 UTC] PHP Stack trace:
+[16-Jun-2020 01:22:23 UTC] PHP   1. {main}() /Users/jessjmyer/Local Sites/fictional-university/app/public/index.php:0
+[16-Jun-2020 01:22:23 UTC] PHP   2. require() /Users/jessjmyer/Local Sites/fictional-university/app/public/index.php:17
+[16-Jun-2020 01:22:23 UTC] PHP   3. require_once() /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[16-Jun-2020 01:22:23 UTC] PHP   4. include() /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[16-Jun-2020 01:22:23 UTC] PHP Warning:  Use of undefined constant the_title - assumed 'the_title' (this will throw an Error in a future version of PHP) in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/index.php on line 5
+[16-Jun-2020 01:22:23 UTC] PHP Stack trace:
+[16-Jun-2020 01:22:23 UTC] PHP   1. {main}() /Users/jessjmyer/Local Sites/fictional-university/app/public/index.php:0
+[16-Jun-2020 01:22:23 UTC] PHP   2. require() /Users/jessjmyer/Local Sites/fictional-university/app/public/index.php:17
+[16-Jun-2020 01:22:23 UTC] PHP   3. require_once() /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[16-Jun-2020 01:22:23 UTC] PHP   4. include() /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[18-Jun-2020 16:44:24 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/page.php on line 23
+[18-Jun-2020 16:48:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/page.php on line 21 and exactly 1 expected in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-includes/post.php:6876
+Stack trace:
+#0 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/page.php(21): wp_get_post_parent_id()
+#1 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/jessjmye...')
+#2 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/jessjmye...')
+#3 /Users/jessjmyer/Local Sites/fictional-university/app/public/index.php(17): require('/Users/jessjmye...')
+#4 {main}
+  thrown in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-includes/post.php on line 6876
+[18-Jun-2020 16:49:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/page.php on line 21 and exactly 1 expected in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-includes/post.php:6876
+Stack trace:
+#0 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/page.php(21): wp_get_post_parent_id()
+#1 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/jessjmye...')
+#2 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/jessjmye...')
+#3 /Users/jessjmyer/Local Sites/fictional-university/app/public/index.php(17): require('/Users/jessjmye...')
+#4 {main}
+  thrown in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-includes/post.php on line 6876
+[18-Jun-2020 17:28:37 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/page.php on line 49
+[19-Jun-2020 16:35:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/front-page.php on line 108
+[22-Jun-2020 17:25:30 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/functions.php on line 25
+[22-Jun-2020 17:25:47 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/functions.php on line 25
+[22-Jun-2020 17:26:04 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/functions.php on line 25
+[22-Jun-2020 18:03:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_trip_words() in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/front-page.php:32
+Stack trace:
+#0 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/jessjmye...')
+#2 /Users/jessjmyer/Local Sites/fictional-university/app/public/index.php(17): require('/Users/jessjmye...')
+#3 {main}
+  thrown in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/front-page.php on line 32
+[23-Jun-2020 23:52:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/functions.php on line 24
+[23-Jun-2020 23:54:46 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/functions.php on line 32
+[23-Jun-2020 23:56:05 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/functions.php on line 32
+[23-Jun-2020 23:56:07 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/functions.php on line 32
+[24-Jun-2020 00:22:20 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/page-past-events.php on line 22
+[24-Jun-2020 01:18:51 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/functions.php on line 19
+[24-Jun-2020 01:46:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/single-event.php on line 39
+[24-Jun-2020 01:46:53 UTC] PHP Stack trace:
+[24-Jun-2020 01:46:53 UTC] PHP   1. {main}() /Users/jessjmyer/Local Sites/fictional-university/app/public/index.php:0
+[24-Jun-2020 01:46:53 UTC] PHP   2. require() /Users/jessjmyer/Local Sites/fictional-university/app/public/index.php:17
+[24-Jun-2020 01:46:53 UTC] PHP   3. require_once() /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[24-Jun-2020 01:46:53 UTC] PHP   4. include() /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[24-Jun-2020 02:05:57 UTC] PHP Warning:  Use of undefined constant related_programs - assumed 'related_programs' (this will throw an Error in a future version of PHP) in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/single-program.php on line 49
+[24-Jun-2020 02:05:57 UTC] PHP Stack trace:
+[24-Jun-2020 02:05:57 UTC] PHP   1. {main}() /Users/jessjmyer/Local Sites/fictional-university/app/public/index.php:0
+[24-Jun-2020 02:05:57 UTC] PHP   2. require() /Users/jessjmyer/Local Sites/fictional-university/app/public/index.php:17
+[24-Jun-2020 02:05:57 UTC] PHP   3. require_once() /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[24-Jun-2020 02:05:57 UTC] PHP   4. include() /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[24-Jun-2020 02:10:20 UTC] PHP Warning:  Use of undefined constant get_the_title - assumed 'get_the_title' (this will throw an Error in a future version of PHP) in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/single-program.php on line 56
+[24-Jun-2020 02:10:20 UTC] PHP Stack trace:
+[24-Jun-2020 02:10:20 UTC] PHP   1. {main}() /Users/jessjmyer/Local Sites/fictional-university/app/public/index.php:0
+[24-Jun-2020 02:10:20 UTC] PHP   2. require() /Users/jessjmyer/Local Sites/fictional-university/app/public/index.php:17
+[24-Jun-2020 02:10:20 UTC] PHP   3. require_once() /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[24-Jun-2020 02:10:20 UTC] PHP   4. include() /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[25-Jun-2020 22:03:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function professor_post_type() in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/mu-plugins/university-post-types.php:37
+Stack trace:
+#0 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(287): university_post_types('')
+#1 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-settings.php(540): do_action('init')
+#4 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-config.php(77): require_once('/Users/jessjmye...')
+#5 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-load.php(37): require_once('/Users/jessjmye...')
+#6 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php(22): require_once('/User in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/mu-plugins/university-post-types.php on line 37
+[25-Jun-2020 22:03:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function professor_post_type() in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/mu-plugins/university-post-types.php:37
+Stack trace:
+#0 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(287): university_post_types('')
+#1 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-settings.php(540): do_action('init')
+#4 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-config.php(77): require_once('/Users/jessjmye...')
+#5 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-load.php(37): require_once('/Users/jessjmye...')
+#6 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-admin/admin.php(34): require_once('/Users/jes in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/mu-plugins/university-post-types.php on line 37
+[26-Jun-2020 03:44:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/functions.php on line 11
+[26-Jun-2020 03:58:26 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/page.php on line 7 and exactly 1 expected in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/functions.php:3
+Stack trace:
+#0 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/page.php(7): pageBanner()
+#1 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/jessjmye...')
+#2 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/jessjmye...')
+#3 /Users/jessjmyer/Local Sites/fictional-university/app/public/index.php(17): require('/Users/jessjmye...')
+#4 {main}
+  thrown in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/functions.php on line 3
+[26-Jun-2020 04:21:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getBanner() in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/archive.php:4
+Stack trace:
+#0 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/jessjmye...')
+#2 /Users/jessjmyer/Local Sites/fictional-university/app/public/index.php(17): require('/Users/jessjmye...')
+#3 {main}
+  thrown in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/archive.php on line 4
+[26-Jun-2020 04:30:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getBanner() in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/single-event.php:7
+Stack trace:
+#0 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/jessjmye...')
+#2 /Users/jessjmyer/Local Sites/fictional-university/app/public/index.php(17): require('/Users/jessjmye...')
+#3 {main}
+  thrown in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/single-event.php on line 7
+[26-Jun-2020 04:30:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getBanner() in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/single-event.php:7
+Stack trace:
+#0 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/jessjmye...')
+#2 /Users/jessjmyer/Local Sites/fictional-university/app/public/index.php(17): require('/Users/jessjmye...')
+#3 {main}
+  thrown in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/single-event.php on line 7
+[26-Jun-2020 04:55:49 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/jessjmyer/Local Sites/fictional-university/app/public/wp-content/themes/fiction-uni-theme/archive-event.php on line 16
